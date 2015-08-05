@@ -1,6 +1,7 @@
 # hapi-stripe-webhooks
 
-[![Build Status](https://circleci.com/gh/christophercliff/hapi-stripe-webhooks.svg?style=shield)](https://circleci.com/gh/christophercliff/hapi-stripe-webhooks) [![Coverage Status](https://coveralls.io/repos/christophercliff/hapi-stripe-webhooks/badge.svg?branch=master&service=github)](https://coveralls.io/github/christophercliff/hapi-stripe-webhooks?branch=master)
+[![Build Status](https://circleci.com/gh/christophercliff/hapi-stripe-webhooks.svg?style=shield)](https://circleci.com/gh/christophercliff/hapi-stripe-webhooks)
+[![Coverage Status](https://coveralls.io/repos/christophercliff/hapi-stripe-webhooks/badge.svg?branch=master&service=github)](https://coveralls.io/github/christophercliff/hapi-stripe-webhooks?branch=master)
 
 A [Hapi](http://hapijs.com/) plugin for receiving notifications from the [Stripe webhooks API](https://stripe.com/docs/webhooks).
 
