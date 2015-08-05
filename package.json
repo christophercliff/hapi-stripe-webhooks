@@ -1,0 +1,39 @@
+{
+  "name": "hapi-stripe-webhooks",
+  "version": "0.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "description": "A Hapi plugin for receiving notifications from the Stripe webhooks API.",
+  "keywords": [
+    "hapi",
+    "stripe",
+    "webhooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/hapi-stripe-webhooks"
+  },
+  "scripts": {
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
+    "style": "./node_modules/crispy/node_modules/.bin/eslint -c ./node_modules/crispy/.eslintrc ./lib/ ./test/",
+    "test": "./node_modules/.bin/mocha --reporter spec --grep ''"
+  },
+  "main": "./lib/",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "boom": "^2.8.0",
+    "joi": "^6.6.1",
+    "stripe": "^3.7.0",
+    "wreck": "^6.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "coveralls": "^2.11.3",
+    "crispy": "^4.0.0",
+    "hapi": "^8.8.1",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "nock": "^2.9.1"
+  }
+}
